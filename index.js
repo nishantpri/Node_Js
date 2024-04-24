@@ -1,6 +1,6 @@
 const http=require("http");//built in package in Node js to create servers
-const fs=require('fs');
-const url=require('url');
+const fs=require('fs');//built in package in Node js to manage files 
+const url=require('url');// built in pacakge to manage  url
 // const server=http.createServer((req,res)=>{
 //     console.log('new req received');
 //     console.log(req.headers);// this will give more data from the where request is received 
